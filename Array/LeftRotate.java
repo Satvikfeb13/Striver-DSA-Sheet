@@ -3,6 +3,7 @@ package Array;
 import java.util.Arrays;
 
 public class LeftRotate {
+
     public  static void fun(int[] arr, int n){
         int temp=arr[0];
         for(int i=0;i<n-1;i++){
