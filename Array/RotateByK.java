@@ -17,6 +17,7 @@ public class RotateByK {
         int [] arr={1,2,3,4,5,6,7};
         int k=2;
         int n= 7;
+
         Reverse(arr,0,k-1);
         Reverse(arr,k,n-1);
         Reverse(arr,0,n-1);
